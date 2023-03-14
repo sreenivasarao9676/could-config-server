@@ -1,0 +1,9 @@
+microservice:
+  custmer-service:
+   endpoints:
+     endpoint:
+      uri: http://api-gateway/customer/findall
+  product-service:
+       endpoints:
+         endpoint:
+           uri: http://api-gateway/product/empleeData
